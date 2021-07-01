@@ -11,6 +11,9 @@ from PIL import ImageTk, Image
 image = None
 
 
+
+
+
 def plot_array(reps, times):
     new_reps = []
     new_time = []
