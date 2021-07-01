@@ -22,7 +22,7 @@ import numpy as np
 
 nl="\n"
 i1 = "Welcome to the curl analyzer, here are your instructions\n1. Press the Analyze my Curl Button\n"
-i2=  "2. In 10 seconds, you should see a video opening up, to track your curl.\n"
+i2=  "2. In 3 seconds, you should see a video opening up, to track your curl.\n"
 i3=  "3. Start curling, do your reps and once you're done, hit Q\n"
 i4=  "4. You can now get a graph of your exercise pattern.\n"
 i5=  "5. Once you are done curling, hit what do my numbers mean to get a better analysis.\n"
@@ -37,6 +37,7 @@ min_time = 0
 
 
 root = Tk()
+root.title('The Curl Tracker')
 
 h = 700
 w= 800
