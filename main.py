@@ -32,15 +32,7 @@ def plot_array(reps, times):
 
 def runcurl():
 
-    time.sleep(3)
 
-    root = Tk()
-    # Create a frame
-    app = Frame(root, bg="white")
-    app.grid()
-    # Create a label in the frame
-    lmain = Label(app)
-    lmain.grid()
 
     mpdrawing  = mp.solutions.drawing_utils
     mp_pose = mp.solutions.pose  #importing stuff for pose estimation and solutions
@@ -176,7 +168,6 @@ def runcurl():
                 break
         cap.release()
         cv2.destroyAllWindows()
-        root.destroy()
 
         #print(len(landmarks))
         #print(landmarks[mp_pose.PoseLandmark.RIGHT_WRIST.value].x)
